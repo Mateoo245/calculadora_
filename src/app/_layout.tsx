@@ -3,13 +3,6 @@ import { Stack } from "expo-router";
 
 export default function Layout() {
   return (
-    <Stack
-      screenOptions={{
-        headerShown: false,
-        contentStyle: {
-          backgroundColor: "#DDF0FF",
-        },
-      }}
-    />
+    <Stack screenOptions={{ headerShown: false }} />
   );
 }
